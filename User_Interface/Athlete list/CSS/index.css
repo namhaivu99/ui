@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+}
+@font-face{
+    src: url("../montserrat/Montserrat-Light.otf");
+    font-family: montserrat;
+}
+.first{
+    width: 100%;
+    height: 80px;
+    background-color:#3f697d;   
+    display: flex;
+    position: relative;
+}
+.icon_left{
+    width: 30%;
+    display: flex;   
+}
+.avata{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+.input_header{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: calc(100% - 18px);
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left    : 20px;
+}
+.icon_right{
+    display: flex;
+    width: 70%;
+    color: white;
+    font-size: 18px;
+    font-family:montserrat;
+    font-weight: bold;
+    
+}
+.small_avata{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;       
+      
+    margin-left: 690px;
+    margin-top: 18px;
+}
+.username{  
+    height: 40px;
+    width: 40px;
+   margin-left: 30px; 
+   margin-top: 30px; 
+}
+.content{
+    width: 100%;  
+    display: flex;
+    height: 545px;
+    
+
+}
+.content_left{
+    width: 30%;
+    border:1px solid #948e8ebf;
+   
+}
+
+.text{
+      font-family: montserrat;
+      color:#3f697d;
+      font-weight: bold;
+      font-size: 30px;
+      margin-left: 20px;
+      margin-top: 30px;
+      display: block;
+}
+.circle{
+    display: block;
+    height:40px;
+    width: 40px;
+    border: 1px solid  #948e8ebf;
+    border-radius: 50%;
+    background-color: #948e8ebf;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.span_left, .span_right{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.span_left{
+    width: 70%;
+    border-right: 1px solid  #948e8ebf;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.span_right{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.row-odd{
+    width: 100%;
+    height: 50px;
+    background-color:#716c6c3b;
+}
+.row-even{
+    width: 100%;
+    height: 50px;
+   
+}
+.row-even span, .row-odd span{
+    font-family: montserrat;
+    font-size: 30px;
+    color: #3f697d;
+    padding-left:20px;
+    padding-top: 7px;
+    display: inline-block; 
+
+}
+.content_right{
+    width: 68%;
+    
+    border: 1px solid  #948e8ebf;
+    margin-left: 2%;
+}
+.infor{
+    height: 139px;
+    width: 100%;
+    border-bottom: 1px solid  #948e8ebf;
+    position: relative;
+}
+.small_if{
+    position: absolute;
+    height: 100px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15px;
+    
+}
+.photograph{
+    height: 100px;
+    width: 100px;
+    border: 1px solid  #948e8ebf;
+    float: left;
+}
+.name, .coach, .phone{
+    width: 100%;
+    height: 30px;
+    font-family: montserrat;
+    font-size: 25px;
+    color: black;
+    margin-left: 120px;
+}
+table, th, td {
+    border: 1px solid #948e8ebf;
+    border-collapse: collapse;
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: bold;
+  }
